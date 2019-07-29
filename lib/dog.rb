@@ -5,5 +5,12 @@ class Dog
     @this_dogs_name = dog_name 
   end 
   
-  def 
+  def bark 
+    puts "woof!"
 end 
+
+fido = Dog.new
+fido.name = "Fido"
+
+fido.name
+fido.bark
